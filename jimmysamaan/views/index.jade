@@ -1,5 +1,23 @@
 extends layout
 
 block content
+  div#header
+    div#logo
+      img(src='/images/logo.png')
+    div#menu
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='/about') About
+        li
+          a(href='/contact') Contact
+  div#main
+    div#grid
+      div#grid-item
+  div#footer 
+    p 2012 Jimmy Samaan
   h1= title
   p Welcome to #{title}
+  span This is a span
+  div#test This is a div
