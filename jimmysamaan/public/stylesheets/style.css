@@ -1,3 +1,8 @@
+/* add css to the root the colors for white and dark theme */
+:root {
+  --white: #fff;
+  --dark: #000;
+}
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
